@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jm_joaoisa.control;
+package jogomemoria;
 
 /**
  *
- * @author João e Isabela
+ * @author Aluno
  */
-public class JogoMemoriaCtrl {
+public class jogomemoria {
     
 }
