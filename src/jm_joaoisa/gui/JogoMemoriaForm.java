@@ -58,7 +58,7 @@ public class JogoMemoriaForm extends javax.swing.JFrame {
 
         jRadioButton1.setText("jRadioButton1");
 
-        jLabel1.setText("jLabel1");
+        jLabel1.setText("Socorro");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -67,14 +67,14 @@ public class JogoMemoriaForm extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(261, 261, 261)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Imagemtitulo)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Imagemtitulo)
+                        .addGap(102, 102, 102)
+                        .addComponent(jLabel1))
                     .addComponent(titulo)
                     .addComponent(jRadioButton3)
                     .addComponent(jRadioButton2)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jRadioButton1)
-                        .addGap(89, 89, 89)
-                        .addComponent(jLabel1)))
+                    .addComponent(jRadioButton1))
                 .addContainerGap(269, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -83,15 +83,15 @@ public class JogoMemoriaForm extends javax.swing.JFrame {
                 .addGap(5, 5, 5)
                 .addComponent(titulo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Imagemtitulo)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Imagemtitulo)
+                    .addComponent(jLabel1))
                 .addGap(51, 51, 51)
                 .addComponent(jRadioButton3)
                 .addGap(18, 18, 18)
                 .addComponent(jRadioButton2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jLabel1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 2, Short.MAX_VALUE)
+                .addComponent(jRadioButton1)
                 .addGap(192, 192, 192))
         );
 
